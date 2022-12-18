@@ -1,0 +1,114 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+}
+
+.registration-form {
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    position: relative;
+    min-width: 288px;
+    box-shadow: 0 2px 0 0 rgb(0 16 61 / 4%);
+    border-color: rgba(0, 16, 61, 0.12);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px; 
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.name-surname {
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+}
+
+.date {
+    padding: 5px;
+    display: inline-block;
+    height: 36px;
+
+    padding-bottom: 20px
+}
+
+.date-bloc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gender {
+    padding: 5px;
+}
+
+.gender-bloc {
+    display: flex;
+}
+
+.male {
+    display: flex;
+}
+
+.female {
+    display: flex;
+}
+
+.box-name {
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.password {
+    padding: 5px;
+}
+
+.password-bloc {
+    justify-content: space-between;
+    display: flex;
+}
+
+.button-1 {
+    background-color: white;
+    color: rgb(0, 10, 170);
+    border-radius: 5px;
+    border: 0;
+}
+
+.button-2 {
+    background-color: white;
+    color: rgb(0, 10, 170);
+    border-radius: 5px;
+    border: 0;
+}
+
+.phone-number {
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.phone-number-bloc {
+    justify-content: space-between;
+    display: flex;
+}
+
+.button-3 {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 10px;
+    width: 95%;
+    background-color: rgb(	0, 95, 249);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+}
+
+.additional-information {
+    padding: 5px;
+}
